@@ -1,0 +1,6 @@
+lab_env/
+__pycache__/
+*.pyc
+pytest-report.xml
+data/summarized_weather.csv
+*.csv~
