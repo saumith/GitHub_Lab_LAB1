@@ -49,3 +49,11 @@ pip install -r requirements.txt
 
 # 3. Run main script
 python main.py
+```
+## 🧪 Testing
+
+This project includes two test frameworks, but only **Unittest** is required to validate functionality. You can run either depending on your setup.
+
+**▶️ Unittest (Recommended)** — Run `python -m unittest discover -s test` to execute all test cases under the `test/` folder.
+
+**▶️ Pytest (Recommendedl)** — Pytest is included to demonstrate additional testing integration. Run `PYTHONPATH=. pytest` (may require setting `PYTHONPATH=.` depending on your environment). **🟡 Note:** In some CI environments, Pytest may fail due to path or artifact deprecation issues — Unittest workflow is fully operational.
